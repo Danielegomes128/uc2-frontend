@@ -1,0 +1,44 @@
+.quadrado { 
+    /* Height Altura */
+    height: 30rem;
+    /*Width: Largura */
+    width: 30rem;
+    /*Background-color: Cor de Fundo */
+    background-color: purple;
+    /*text-align: Alinhamento Horizontal  do Texto interno */
+    text-align: center;
+    /* color: Cor da Fonte da Classe */
+    color: yellow;
+    /* line-heigh: Alinhar verticalmente caso mesmo valor
+    de heigh seja definido */
+    line-height: 29rem;
+    /* font-size: Tamanho da Fonte */
+    font-size: 1.3rem;
+    /*font-family: Família da Fonte*/
+    font-family: Arial, Helvetica, sans-serif;
+    /* Alinhar no centro do html o quadrado*/
+    margin: auto;
+    /* Borda do quadrado */
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color: black;
+}
+
+
+
+table {
+    margin-top: 30px;   
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
